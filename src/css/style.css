@@ -54,6 +54,26 @@ body {
 
 }
 
+#modal.animar{
+    /* key frame como ocorre animação */
+    animation-name: slide;
+    animation-duration: 2s;
+
+}
+/* key frame como ocorre animação */
+
+@keyframes slide {
+    from {
+        opacity: 0;
+
+    }
+    to {
+        opacity: 1;
+
+    }
+    
+}
+
 
 
 
