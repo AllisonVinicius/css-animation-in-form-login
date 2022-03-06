@@ -41,14 +41,14 @@ body {
     font-size: 1rem;
     padding: .6rem 2rem;
     border: none;
-    background: #ffb801;
+    background: #6fb4cf;
     border-radius: 4px;
     color: #402d00;
 
 }
 #modal{
     padding: 30px;
-    background: white;
+    background: rgb(180, 210, 218);
     border-radius: 4px;
     box-shadow: 01 1px 1pz rgba(0,0,0,.1);
     max-width: 400px;
@@ -78,6 +78,35 @@ body {
         opacity: 1;
         transform: translateX(0);
 
+
+    }
+    
+}
+
+#loading{
+    width: 20px;
+    height: 20px;
+    border: 5px solid;
+    border-radius: 50%;
+    border-top-color: transparent;
+    margin: 0 auto;
+    color: #494242;
+    animation: loading .8s linear infinite;
+
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(360deg) scale(2);
+
+    }
+    
+}
+@keyframes loadingFrames {
+    0%{
+        transform: translate(0px) scale(.5);
+    }
+    25%{
 
     }
     
