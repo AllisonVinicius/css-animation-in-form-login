@@ -62,7 +62,13 @@ body {
     animation-name: slide;
     animation-duration: .3s;
     /* fique no estado final */
-   animation-fill-mode: forwards;  
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;  
+    animation-play-state: running;
+    /* animation: slide .3s forwards; */
 }
 /* key frame como ocorre animação */
 
